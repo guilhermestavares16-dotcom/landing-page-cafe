@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Café Brasil – Cafés especiais na sua casa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Cabeçalho com menu -->
+  <header>
+    <span class="logo">Café Brasil</span>
+    <nav>
+      <a href="#beneficios">Benefícios</a>
+      <a href="#planos">Planos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <!-- Seção principal -->
+  <section class="hero">
+    <h1>Café fresquinho, torrado na semana e entregue na sua casa.</h1>
+    <p>Receba os grãos de pequenos produtores do Brasil todo mês.</p>
+    <a href="#planos" class="botao">Ver planos</a>
+  </section>
+
+  <!-- Benefícios -->
+  <section id="beneficios">
+    <h2>Por que assinar?</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Sempre fresco</h3>
+        <p>Torramos o café na semana do envio.</p>
+      </div>
+      <div class="card">
+        <h3>Produtores locais</h3>
+        <p>Você apoia fazendas pequenas e ganha sabores únicos.</p>
+      </div>
+      <div class="card">
+        <h3>Sem fidelidade</h3>
+        <p>Pause ou cancele quando quiser.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Planos e preços -->
+  <section id="planos" class="fundo-claro">
+    <h2>Escolha seu plano</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Básico</h3>
+        <p class="preco">R$ 39/mês</p>
+        <p>1 pacote de 250g</p>
+        <a href="#contato" class="botao">Quero este</a>
+      </div>
+      <div class="card destaque">
+        <h3>Completo</h3>
+        <p class="preco">R$ 69/mês</p>
+        <p>2 pacotes de 250g + frete grátis</p>
+        <a href="#contato" class="botao">Quero este</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Formulário de interesse -->
+  <section id="contato">
+    <h2>Quero assinar</h2>
+    <form id="formulario">
+      <input type="text" id="nome" placeholder="Seu nome">
+      <input type="email" id="email" placeholder="Seu e-mail">
+      <button type="submit" class="botao">Enviar</button>
+      <p id="mensagem"></p>
+    </form>
+  </section>
+
+  <footer>
+    <p>© <span id="ano"></span> Café Brasil. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
