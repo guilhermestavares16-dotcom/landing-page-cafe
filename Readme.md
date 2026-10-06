@@ -1,6 +1,6 @@
 Landing page – Café Brasil
 
-Landing page de vendas simples feita com HTML, CSS e JavaScript puro.
+Landing page de vendas simples (HTML, CSS e JavaScript), projeto de estudo.
 
 Seções
 
